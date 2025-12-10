@@ -13,6 +13,10 @@
   --color-bg: #FDFBF7; /* Blanco hueso suave para el fondo */
   --color-white: #FFFFFF;
   --color-error: #D32F2F;
+
+  /* Tipografia */
+  --font-heading: 'Lora', serif; 
+  --font-body: 'Montserrat', sans-serif;
 }
 
 .site-header {
