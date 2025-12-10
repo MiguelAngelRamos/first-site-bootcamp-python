@@ -1,9 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 /* :root quiere decir "declara variables globales" */
 :root {
   --color-primary: #8B4513; /* Color Marrón */
@@ -19,18 +13,15 @@
   --font-body: 'Montserrat', sans-serif;
 }
 
-.site-header {
-  /* background-color: tomato; */
-  background-color: var(--color-primary)
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.main-nav {
-
-}
-
-
-.nav-list {
-  
+body {
+  font-family: var(--font-body);
+  color: var(--color-text);
 }
 
 
