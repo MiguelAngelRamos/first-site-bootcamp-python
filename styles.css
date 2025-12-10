@@ -4,28 +4,29 @@
   box-sizing: border-box;
 }
 
+/* :root quiere decir "declara variables globales" */
+:root {
+  --color-primary: #8B4513; /* Color Marrón */
+  --color-secondary: #D2691E; /* Chocolate */
+  --color-accent: #DEB887; /* Madera */
+  --color-text: #333333; /* Gris oscuro para texto principal (mejor contraste que negro puro) */
+  --color-bg: #FDFBF7; /* Blanco hueso suave para el fondo */
+  --color-white: #FFFFFF;
+  --color-error: #D32F2F;
+}
+
 .site-header {
-  background-color: tomato;
+  /* background-color: tomato; */
+  background-color: var(--color-primary)
 }
 
 .main-nav {
 
 }
 
+
 .nav-list {
   
 }
 
-.cajita {
-  background-color: rebeccapurple;
-  width: 100px;
-  height: 100px;
-  color: white;
-  padding-top: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  margin-top: 10px;
-  border: 4px solid black;
 
-}
