@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ejemplo: overflow horizontal (sin box-sizing)</title>
+  <link rel="stylesheet" href="problem.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Ejemplo: scroll horizontal por modelo de caja (content-box)</h1>
+    <p>Esta página muestra un <strong>desbordamiento horizontal</strong> causado porque el elemento tiene <code>width:100%</code> más padding y border usando el modelo por defecto <code>box-sizing: content-box</code>.</p>
+
+    <div class="contenido">
+      Este elemento tiene <code>width:100%</code> dentro de un contenedor de 400px, pero además tiene padding y border; por tanto el ancho total excede los 400px y provoca un scroll horizontal.
+    </div>
+
+    <div class="nota">
+      Abre <a href="scroll-solution.html">la versión corregida</a> para ver la diferencia.
+    </div>
+  </main>
+</body>
+</html>
