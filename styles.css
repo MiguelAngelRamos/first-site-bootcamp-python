@@ -11,6 +11,9 @@
   /* Tipografia */
   --font-heading: 'Lora', serif; 
   --font-body: 'Montserrat', sans-serif;
+
+  /* Espaciado y Layout*/
+  --container-width: 1200px;
 }
 
 * {
@@ -22,6 +25,17 @@
 body {
   font-family: var(--font-body);
   color: var(--color-text);
+  line-height: 1.6; /* Altura de linea, facilita la lectura*/
 }
 
+.container {
+  width: 90%; 
+  border: 1px solid red;
+  max-width: var(--container-width);
+  margin: 0 auto; /* Centrado Horizontal*/
+}
 
+.site-header {
+  background-color: var(--color-white);
+  /* position: sticky; */
+}
