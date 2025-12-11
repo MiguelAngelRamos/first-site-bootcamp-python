@@ -14,6 +14,10 @@
 
   /* Espaciado y Layout*/
   --container-width: 1200px;
+  --spacing-sm: 0.5rem; /*small*/
+  --spacing-md: 1rem; /*medium*/
+  --spacing-lg: 2rem; /*large*/
+  --spacing-xl: 4rem; /*extra large*/
 }
 
 * {
@@ -46,4 +50,26 @@ body {
   display:flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.logo {
+  font-family: var(--font-heading);
+  color: var(--color-primary);
+  font-size: 1.5rem;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: var(--spacing-lg);
+}
+
+.nav-link {
+  color: var(--color-text);
+  text-decoration: none;
+  font-weight: 500;
+}
+ /* pseudo clase  */
+.nav-link:hover {
+  color: var(--color-primary);
 }
