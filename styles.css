@@ -78,5 +78,28 @@ body {
 }
 
 .hero-section {
+    /* to-right, to bottom, rgba*/
+    height: 80vh;
+    /*
+    1vh = 1% de la altura de viewport
+    */
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--color-white);
+  
+}
+
+.hero-content h2{
+  font-family: var(--font-heading);
+  font-size: 3rem;
+  margin-bottom: var(--spacing-md);
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: var(--spacing-lg);
 }
